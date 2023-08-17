@@ -1,0 +1,9 @@
+.DS_Store
+.npmignore
+node_modules/
+test/results/
+test/config.json
+.DS_Store
+test
+.idea
+package-lock.json

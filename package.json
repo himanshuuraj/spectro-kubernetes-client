@@ -1,0 +1,32 @@
+{
+  "name": "node-kubernetes-client",
+  "version": "0.3.2",
+  "description": "Kubernetes client of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint .",
+    "test": "mocha ./test -R spec",
+    "integration-tests": "mocha ./test/integration/test.js -R spec --bail --timeout 5s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/himanshuuraj/spectro-kubernetes-client.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s",
+    "docker"
+  ],
+  "author": "himanshuraj",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "axios": "^1.4.0",
+    "form-data": "^2.2.0",
+    "glob": "*",
+    "json-gate": "^0.8.21",
+    "sugar": "^1.5.0"
+  },
+  "homepage": "https://github.com/himanshuuraj/spectro-kubernetes-client.git",
+  "_from": "node-kubernetes-client@*"
+}
