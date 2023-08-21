@@ -1,6 +1,6 @@
 {
-  "name": "node-kubernetes-client",
-  "version": "0.3.2",
+  "name": "spectro-kubernetes-client",
+  "version": "0.3.4",
   "description": "Kubernetes client of Node.js",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,11 @@
     "sugar": "^1.5.0"
   },
   "homepage": "https://github.com/himanshuuraj/spectro-kubernetes-client.git",
-  "_from": "node-kubernetes-client@*"
+  "bugs": {
+    "url": "https://github.com/himanshuuraj/spectro-kubernetes-client/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
